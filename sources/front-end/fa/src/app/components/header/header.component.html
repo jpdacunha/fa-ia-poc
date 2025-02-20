@@ -1,0 +1,21 @@
+<mat-toolbar color="primary" class="header">
+  <a mat-button routerLink="/" class="logo">
+    <span>FASTACCESS</span>
+  </a>
+  
+  <span class="spacer"></span>
+  
+  <ng-container *ngIf="!isLoggedIn()">
+    <a mat-button routerLink="/contact">Contact</a>
+    <a mat-button routerLink="/mentions-legales">Mentions légales</a>
+  </ng-container>
+  
+  <ng-container *ngIf="isLoggedIn()">
+    <a mat-button routerLink="/lexicon">Lexique</a>
+    <a mat-button routerLink="/customer">Clients</a>
+    <button mat-button (click)="logout()">
+      <mat-icon>exit_to_app</mat-icon>
+      Déconnexion
+    </button>
+  </ng-container>
+</mat-toolbar>

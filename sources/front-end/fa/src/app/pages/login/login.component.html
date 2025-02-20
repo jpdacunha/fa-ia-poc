@@ -1,0 +1,41 @@
+<div class="login-container">
+  <div class="login-header">
+    <h1>BIENVENUE SUR VOTRE<br>ESPACE FAST ACCESS</h1>
+  </div>
+
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="login-form">
+    <div class="form-field">
+      <h2>Veuillez vous identifier</h2>
+      <mat-form-field appearance="outline">
+        <mat-label>Identifiant</mat-label>
+        <input matInput formControlName="identifier" type="text">
+        <mat-icon matPrefix>person</mat-icon>
+      </mat-form-field>
+    </div>
+
+    <mat-checkbox formControlName="rememberMe" class="remember-me">
+      Se souvenir de mon identifiant
+    </mat-checkbox>
+
+    <div class="form-field">
+      <h2>Mot de passe</h2>
+      <mat-form-field appearance="outline">
+        <mat-label>Mot de passe</mat-label>
+        <input matInput [type]="hidePassword ? 'password' : 'text'" formControlName="password">
+        <mat-icon matPrefix>lock</mat-icon>
+        <button mat-icon-button matSuffix (click)="hidePassword = !hidePassword">
+          <mat-icon>{{hidePassword ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+      </mat-form-field>
+    </div>
+
+    <button mat-raised-button color="primary" type="submit" class="login-button">
+      <mat-icon>lock_open</mat-icon>
+      Je me connecte
+    </button>
+
+    <a routerLink="/forgot-password" class="forgot-password">
+      Mot de passe annuaire expiré ou oublié ?
+    </a>
+  </form>
+</div>
