@@ -11,6 +11,7 @@
           "builder": "@angular/build:application",
           "configurations": {
             "development": {
+              "aot": true,
               "extractLicenses": false,
               "namedChunks": true,
               "optimization": false,
@@ -32,7 +33,10 @@
             "outputPath": "dist/demo",
             "polyfills": ["zone.js"],
             "scripts": [],
-            "styles": ["src/global_styles.css"],
+            "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
+              "src/global_styles.css"
+            ],
             "tsConfig": "tsconfig.app.json"
           }
         },

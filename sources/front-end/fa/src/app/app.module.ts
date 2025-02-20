@@ -19,6 +19,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { LegalComponent } from './pages/legal/legal.component';
 import { LexiconComponent } from './pages/lexicon/lexicon.component';
 import { CustomerComponent } from './pages/customer/customer.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
@@ -54,7 +55,9 @@ const routes: Routes = [
     MatCheckboxModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
