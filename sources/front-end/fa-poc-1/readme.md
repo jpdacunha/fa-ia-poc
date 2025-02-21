@@ -10,4 +10,4 @@ After executing the prompt, the AI generated an application that you can view fr
 
 ## Result
 unfortunately, the AI generated us a code that does not work with compilation errors, below is a screenshot of the result :
-![Screenshot poc 1](/images/poc 1/Error app generation.png "This is a screenshot of result of first poc")
+![Screenshot poc 1](/images/poc-1/Error.png "This is a screenshot of result of first poc")
