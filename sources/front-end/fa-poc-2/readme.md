@@ -12,3 +12,7 @@ After executing the prompt, the AI generated an application that you can view fr
 Unlike the first scenario, the AI generated an application with a login page and a second home page as requested.
 ![Screenshot poc 2](/images/poc-2/login.JPG "Login page")
 ![Screenshot poc 2](/images/poc-2/home.JPG "Home page")
+
+## To go further
+In the second step, we asked the AI ​​to use the Material UI component library, and there, we noticed a regeneration in the source code, the new generated code did not compile and we had the following error:
+![Screenshot poc 2](/images/poc-2/Error.JPG "Error compilation")
