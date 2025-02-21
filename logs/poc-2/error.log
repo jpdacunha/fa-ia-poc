@@ -1,0 +1,35 @@
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE could not resolve
+npm ERR! 
+npm ERR! While resolving: fastaccess@undefined
+npm ERR! Found: @angular/core@19.0.6
+npm ERR! node_modules/@angular/core
+npm ERR!   @angular/core@"^19.0.6" from the root project
+npm ERR!   peer @angular/core@"19.0.6" from @angular/animations@19.0.6
+npm ERR!   node_modules/@angular/animations
+npm ERR!     @angular/animations@"^19.0.6" from the root project
+npm ERR!     peerOptional @angular/animations@"19.0.6" from @angular/platform-browser@19.0.6
+npm ERR!     node_modules/@angular/platform-browser
+npm ERR!       @angular/platform-browser@"^19.0.6" from the root project
+npm ERR!       3 more (@angular/forms, @angular/router, @angular/material)
+npm ERR!     1 more (@angular/material)
+npm ERR!   7 more (@angular/common, @angular/compiler, @angular/forms, ...)
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! @angular/platform-browser-dynamic@"^19.0.6" from the root project
+npm ERR! 
+npm ERR! Conflicting peer dependency: @angular/core@19.1.7
+npm ERR! node_modules/@angular/core
+npm ERR!   peer @angular/core@"19.1.7" from @angular/platform-browser-dynamic@19.1.7
+npm ERR!   node_modules/@angular/platform-browser-dynamic
+npm ERR!     @angular/platform-browser-dynamic@"^19.0.6" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! 
+npm ERR! For a full report see:
+npm ERR! /home/.npm/_logs/2025-02-21T15_00_38_188Z-eresolve-report.txt
+
+npm ERR! A complete log of this run can be found in: /home/.npm/_logs/2025-02-21T15_00_38_188Z-debug-0.log

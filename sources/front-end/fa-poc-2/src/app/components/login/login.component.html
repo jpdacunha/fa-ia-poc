@@ -1,0 +1,37 @@
+<div class="login-container">
+  <div class="login-box">
+    <h1>BIENVENUE SUR VOTRE<br>ESPACE FIRST ACCESS</h1>
+    
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label>Veuillez vous identifier</label>
+        <div class="input-group">
+          <span class="input-icon">👤</span>
+          <input type="text" [(ngModel)]="identifier" name="identifier" placeholder="">
+        </div>
+      </div>
+
+      <div class="remember-me">
+        <input type="checkbox" [(ngModel)]="rememberMe" name="rememberMe" id="rememberMe">
+        <label for="rememberMe">Se souvenir de mon identifiant</label>
+      </div>
+
+      <div class="form-group">
+        <label>Mot de passe</label>
+        <div class="input-group">
+          <span class="input-icon">🔒</span>
+          <input type="password" [(ngModel)]="password" name="password">
+        </div>
+      </div>
+
+      <button type="submit" class="connect-button">
+        <span class="lock-icon">🔒</span>
+        Je me connecte
+      </button>
+
+      <div class="forgot-password">
+        <a href="#">Mot de passe annuaire expiré ou oublié ?</a>
+      </div>
+    </form>
+  </div>
+</div>
