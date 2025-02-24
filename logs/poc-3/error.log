@@ -1,0 +1,103 @@
+▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this 
+component. [plugin angular-compiler]
+
+    src/app/components/login/login.component.html:42:34:
+      42 │       <div class="error-message" *ngIf="errorMessage">
+         ╵                                   ~~~~
+
+  Error occurs in the template of component LoginComponent.
+
+    src/app/components/login/login.component.ts:7:15:
+      7 │   templateUrl: './login.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/components/client-search/client-search.component.html:9:8:
+      9 │         [(ngModel)]="clientId"
+        ╵         ~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ClientSearchComponent.
+
+    src/app/components/client-search/client-search.component.ts:5:15:
+      5 │   templateUrl: './client-search.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/components/client-search/client-search.component.html:23:8:
+      23 │         [(ngModel)]="clientName"
+         ╵         ~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ClientSearchComponent.
+
+    src/app/components/client-search/client-search.component.ts:5:15:
+      5 │   templateUrl: './client-search.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/components/client-search/client-search.component.html:28:8:
+      28 │         [(ngModel)]="clientFirstName"
+         ╵         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ClientSearchComponent.
+
+    src/app/components/client-search/client-search.component.ts:5:15:
+      5 │   templateUrl: './client-search.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/components/client-search/client-search.component.html:33:8:
+      33 │         [(ngModel)]="clientBirthDate"
+         ╵         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component ClientSearchComponent.
+
+    src/app/components/client-search/client-search.component.ts:5:15:
+      5 │   templateUrl: './client-search.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG5002: Incomplete block "bnpparibas". If you meant to write the @ character, you should use the "&#64;" HTML entity instead. [plugin angular-compiler]
+
+    src/app/components/contact/contact.component.html:9:75:
+      9 │ ...EFRAMSUIVIBCEF@bnpparibas.com">CRDEFRAMSUIVIBCEF@bnpparibas.com</a>
+        ╵                                                    ~~~~~~~~~~~
+
+  Error occurs in the template of component ContactComponent.
+
+    src/app/components/contact/contact.component.ts:5:15:
+      5 │   templateUrl: './contact.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/components/login/login.component.html:12:12:
+      12 │             [(ngModel)]="username"
+         ╵             ~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component LoginComponent.
+
+    src/app/components/login/login.component.ts:7:15:
+      7 │   templateUrl: './login.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG8002: Can't bind to 'ngModel' since it isn't a known property of 'input'. [plugin angular-compiler]
+
+    src/app/components/login/login.component.html:25:12:
+      25 │             [(ngModel)]="password"
+         ╵             ~~~~~~~~~~~~~~~~~~~~~~
+
+  Error occurs in the template of component LoginComponent.
+
+    src/app/components/login/login.component.ts:7:15:
+      7 │   templateUrl: './login.component.html',
+        ╵                ~~~~~~~~~~~~~~~~~~~~~~~~

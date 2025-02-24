@@ -1,6 +1,7 @@
 # POC 2
 ## Generate Angular application without provision of the technical stack
 In this second poc, we asked an AI to generate an angular application without a defining technical stack.
+We asked to create an authentication page from the screenshot provided, and a home page that will be displayed after authentication with a welcome message
 ## Prompt used
 Here is the prompt that was used : [Prompt 2](https://github.com/jpdacunha/fa-ia-poc/blob/main/prompts/Prompt-poc-2.txt)
 ## Generated Application

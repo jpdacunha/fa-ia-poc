@@ -1,0 +1,41 @@
+<div class="search-container">
+  <h1>RECHERCHE CLIENTS</h1>
+
+  <div class="search-box">
+    <h2>Par identifiant</h2>
+    <div class="search-form">
+      <input 
+        type="text" 
+        [(ngModel)]="clientId" 
+        placeholder="Identifiant client"
+        class="search-input">
+      <button (click)="searchById()" class="search-button">
+        <span class="search-icon">🔍</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="search-box">
+    <h2>Par Multi-Critères</h2>
+    <div class="search-form-multi">
+      <input 
+        type="text" 
+        [(ngModel)]="clientName" 
+        placeholder="Nom (ou partie) du client *"
+        class="search-input">
+      <input 
+        type="text" 
+        [(ngModel)]="clientFirstName" 
+        placeholder="Prénom (ou partie) du client"
+        class="search-input">
+      <input 
+        type="text" 
+        [(ngModel)]="clientBirthDate" 
+        placeholder="Date de naissance au format JJ/MM/AAAA"
+        class="search-input">
+      <button (click)="searchByMultiCriteria()" class="search-button">
+        <span class="search-icon">🔍</span>
+      </button>
+    </div>
+  </div>
+</div>

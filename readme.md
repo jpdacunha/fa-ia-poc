@@ -10,7 +10,9 @@ This project presents two scenarios of generating an Angular application from sc
 
 | Scenario  | Description | Links |
 | ------------- | ------------- | ------------- |
-| POC 1 | Generate Angular application with provision of the technical stack |[Access to poc](https://github.com/jpdacunha/fa-ia-poc/tree/main/sources/front-end/fa-poc-1) |
-| POC 2 | Generate Angular application with provision of the technical stack |[Access to poc](https://github.com/jpdacunha/fa-ia-poc/tree/main/sources/front-end/fa-poc-2)|
+| POC 1 | Generate Angular application from one screenshot, with provision of the technical stack |[Access to poc](https://github.com/jpdacunha/fa-ia-poc/tree/main/sources/front-end/fa-poc-1) |
+| POC 2 | Generate Angular application from one screenshot, without provision of the technical stack |[Access to poc](https://github.com/jpdacunha/fa-ia-poc/tree/main/sources/front-end/fa-poc-2)|
+| POC 3 | Generate Angular application from 3 screenshots, without provision of the technical stack |[Access to poc](https://github.com/jpdacunha/fa-ia-poc/tree/main/sources/front-end/fa-poc-3)|
+
 
 
