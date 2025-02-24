@@ -25,4 +25,4 @@ We notice that the AI has not done the routing between the pages and with the ri
 
 ![Screenshot poc 3](/images/poc-3/bolt-view.JPG "generated code")
 
-You can see all [error log here](https://github.com/jpdacunha/fa-ia-poc/blob/main/logs/poc-3/error.txt) 
+You can see all [error log here](https://github.com/jpdacunha/fa-ia-poc/blob/main/logs/poc-3/error.log) 
