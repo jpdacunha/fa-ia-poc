@@ -1,6 +1,9 @@
 # POC 1
 ## Generate Angular application with provision of the technical stack
 In this first poc, we asked an AI to generate an angular application with a well-defined technical stack.
+## Used AI
+![Bolt](/images/bolt.png "Bolt")
+
 ## Prompt used
 Here is the prompt that was used :
 ### Text
@@ -34,7 +37,7 @@ L’application doit contenir les pages privées suivantes :
 >
 ### App screenshots
 
-![Screenshot](/images/screenshots/login.png "This is an app Screenshot")
+![Screenshot](/images/screenshots/login.jpg "This is an app Screenshot")
 
 ## Generated Application
 After executing the prompt, the AI generated an application that you can view from this link:

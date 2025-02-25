@@ -2,6 +2,8 @@
 ## Generate Angular application without provision of the technical stack
 In this second poc, we asked an AI to generate an angular application without a defining technical stack.
 We asked to create an authentication page from the screenshot provided, and a home page that will be displayed after authentication with a welcome message
+## Used AI
+![Bolt](/images/bolt.png "Bolt")
 ## Prompt used
 Here is the prompt that was used : 
 ### Text
@@ -16,7 +18,7 @@ L’application doit contenir les pages publiques suivantes :
 >
 ### App screenshots
 
-![Screenshot](/images/screenshots/login.png "This is an app Screenshot")
+![Screenshot](/images/screenshots/login.jpg "This is an app Screenshot")
 
 
 ## Generated Application

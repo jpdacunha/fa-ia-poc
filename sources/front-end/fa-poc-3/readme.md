@@ -20,11 +20,11 @@ Une page recherche client depuis la capture d’écran de recherche client qui d
 >
 ### App screenshots
 
-![Screenshot](/images/screenshots/login.png "This is an app Screenshot")
+![Screenshot](/images/screenshots/login.jpg "This is an app Screenshot")
 
-![Screenshot](/images/screenshots/recherche.png "This is an app Screenshot")
+![Screenshot](/images/screenshots/recherche.jpg "This is an app Screenshot")
 
-![Screenshot](/images/screenshots/contact.png "This is an app Screenshot")
+![Screenshot](/images/screenshots/contact.jpg "This is an app Screenshot")
 
 ## Generated Application
 After executing the prompt, the AI generated an application that you can view from this link:

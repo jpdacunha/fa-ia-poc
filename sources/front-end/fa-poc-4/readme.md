@@ -23,11 +23,11 @@ Je veux que tu me fournisse le code de routage suivant :
 >
 ### App screenshots
 
-![Screenshot](/images/screenshots/login.png "This is an app Screenshot")
+![Screenshot](/images/screenshots/login.jpg "This is an app Screenshot")
 
-![Screenshot](/images/screenshots/recherche.png "This is an app Screenshot")
+![Screenshot](/images/screenshots/recherche.jpg "This is an app Screenshot")
 
-![Screenshot](/images/screenshots/contact.png "This is an app Screenshot")
+![Screenshot](/images/screenshots/contact.jpg "This is an app Screenshot")
 
 ## Generated Application
 After executing the prompt step by step, the AI generated the components that we integrated one by one into the initial archetype, and we ended up asking it to generate the routing between the pages.
