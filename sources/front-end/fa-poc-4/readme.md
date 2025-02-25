@@ -2,8 +2,33 @@
 ## Generating an angular application in several steps
 In this poc, we start from a blank angular application archetype.
 We ask the AI to generate component by component from the screenshots, and we integrate them into our code one by one.
+## Used AI
+![GenAIHub](/images/GenAIHub.png "GenAIHub")
+
+![Copilot](/images/copilot.jpg "Copilot")
+
 ## Prompt used
-Here is the prompt that was used : [Prompt 4](https://github.com/jpdacunha/fa-ia-poc/blob/main/prompts/Prompt-poc-4.txt)
+Here is the prompt that was used :
+### Text
+>Je vais te donner une capture de l’écran de login de l’application angular que je souhaite que tu génères. 
+Je souhaiterai que tu te bases sur cette capture pour réaliser les écrans et les composants que je vais te décrire. 
+Tu veilleras à ce que chaque composant soit définie dans son propre répertoire contenant 3 fichiers : 1 fichier typescript, 1 fichier html et un 1 fichier css.
+Je veux que tu respectes au maximum l’apparence de la capture, les même couleurs et le même design.
+Je veux que tu crée un composant Header, un composant Footer et un composant login à partir de la capture de login.
+Je veux ensuite que tu crée un composant contact à partir de la capture de contact.
+Je veux que tu crée aussi le composant "recherche client" à partir de la capture de recherche.
+Je veux que tu me fournisse le code de routage suivant :
+- Quand on clique sur le bouton d'authentification tu me redirige vers la page recherche clien.
+- La page de contact doit être accéssible à partir du lien contact du footer.
+>
+### App screenshots
+
+![Screenshot](/images/screenshots/login.png "This is an app Screenshot")
+
+![Screenshot](/images/screenshots/recherche.png "This is an app Screenshot")
+
+![Screenshot](/images/screenshots/contact.png "This is an app Screenshot")
+
 ## Generated Application
 After executing the prompt step by step, the AI generated the components that we integrated one by one into the initial archetype, and we ended up asking it to generate the routing between the pages.
 

@@ -5,8 +5,27 @@ We asked to create:
 * A login page from the login screenshot.
 * A contact page from the contact screenshot, accessible from the footer link.
 * A customer search page from the customer search screenshot that must be displayed after login.
+## Used AI
+![Bolt](/images/bolt.png "Bolt")
 ## Prompt used
-Here is the prompt that was used : [Prompt 2](https://github.com/jpdacunha/fa-ia-poc/blob/main/prompts/Prompt-poc-3.txt)
+Here is the prompt that was used : 
+### Text
+>Je vais te donner une capture de l’écran de login de l’application angular que je souhaite que tu génères. Je souhaiterai que tu te bases sur cette capture pour réaliser les écrans et les composants que je vais te décrire. Tu veilleras à ce que chaque composant soit définie dans son propre répertoire contenant 3 fichiers : 1 fichier typescript, 1 fichier html et un 1 fichier css.
+Je veux que tu respectes au maximum l’apparence de la capture, les mêmes couleurs et le même design.
+Je veux que tu crée un composant Header, un composant Footer et un composant login.
+L’application doit contenir les pages publiques suivantes : 
+Une page de login depuis la capture d'écran de login, je voudrais que le login soit test et le mot de passe test.
+Une page de contact depuis la capture d’écran de contact, accessible depuis le lien du footer.
+Une page recherche client depuis la capture d’écran de recherche client qui doit être affichée après la connexion.
+>
+### App screenshots
+
+![Screenshot](/images/screenshots/login.png "This is an app Screenshot")
+
+![Screenshot](/images/screenshots/recherche.png "This is an app Screenshot")
+
+![Screenshot](/images/screenshots/contact.png "This is an app Screenshot")
+
 ## Generated Application
 After executing the prompt, the AI generated an application that you can view from this link:
 
