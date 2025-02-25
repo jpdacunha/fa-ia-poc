@@ -6,7 +6,7 @@ The goal of this POC is to use AI to generate an Angular application from screen
 For each poc, an application is generated from a [prompt](https://github.com/jpdacunha/fa-ia-poc/tree/main/prompts) provided to an AI ([Bolt](https://bolt.new)) .
 
 ## Scenarios
-This project presents two scenarios of generating an Angular application from screenshots. Below is the description of both scenarios.
+This project presents scenarios of generating an Angular application from screenshots. Below is the description of both scenarios.
 
 | Scenario  | Description | Links |
 | ------------- | ------------- | ------------- |
