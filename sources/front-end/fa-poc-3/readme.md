@@ -14,9 +14,12 @@ After executing the prompt, the AI generated an application that you can view fr
 
 ## Result
 The AI generated the requested components as demonstrated here:
+
 ![Screenshot poc 3](/images/poc-3/generated-app.JPG "generated code")
 But when we launch the application, we see a standard home page like this :
+
 ![Screenshot poc 3](/images/poc-3/preview.JPG "generated code")
 We notice that the AI has not done the routing between the pages and with the right components, and when we ask it to add the right routing, we get an error:
+
 ![Screenshot poc 3](/images/poc-3/bolt-view.JPG "generated code")
 You can see all [error log here](https://github.com/jpdacunha/fa-ia-poc/blob/main/logs/poc-3/error.txt) 
